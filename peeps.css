@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'oilrigregular';
     src: url('./fonts/oilrig-webfont.eot');
-    src: url('./fonts/oilrig-webfont.eot?#iefix') format('embedded-opentype'),
+    src: url('./practifonts/oilrig-webfont.eot?#iefix') format('embedded-opentype'),
          url('./fonts/oilrig-webfont.woff2') format('woff2'),
          url('./fonts/oilrig-webfont.woff') format('woff'),
          url('./fonts/oilrig-webfont.ttf') format('truetype'),
@@ -32,7 +32,6 @@ img {
     text-align: center;
     font-family: 'oilrigregular';
     font-size: 1.5em;
-    text-shadow: 3px 3px rgb(247, 234, 175)
 }
 
 .button {
@@ -44,3 +43,10 @@ img {
 padding-left: 130px;
 }
 
+p {
+font-family: 'Times New Roman', Times, serif;
+padding-left: 10px;
+}
+.dropdown {
+    padding-left: 116px;
+}
