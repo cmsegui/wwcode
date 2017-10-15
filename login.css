@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'oilrigregular';
+    src: url('./fonts/oilrig-webfont.eot');
+    src: url('./fonts/oilrig-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/oilrig-webfont.woff2') format('woff2'),
+         url('./fonts/oilrig-webfont.woff') format('woff'),
+         url('./fonts/oilrig-webfont.ttf') format('truetype'),
+         url('./fonts/oilrig-webfont.svg#oilrigregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.back {
+    background-color: white;
+}
+
+img {
+    padding-top: 90px;
+}
+
+.top {
+    padding-top: 175px;
+    text-align: center;
+    font-family: 'oilrigregular';
+    font-size: 2em;
+    text-shadow: 3px 3px rgb(247, 234, 175)
+}
+
+.top2 {
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'oilrigregular';
+    font-size: 1.5em;
+    text-shadow: 3px 3px rgb(247, 234, 175)
+}
+
+.button {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.logbtn {
+padding-left: 130px;
+}
+
+.icon {
+    margin-left: 20px;
+}
+
+.checkbox-text {
+    margin-left: 10px;
+}
