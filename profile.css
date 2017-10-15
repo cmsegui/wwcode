@@ -9,3 +9,13 @@ body {
 .icon {
 padding-right: 10px;
 }
+
+.modal-body img {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.desc-container {
+    margin-top: 10px;
+}
