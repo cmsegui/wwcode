@@ -56,3 +56,15 @@ padding-left: 10px;
 .checkbox-text {
     margin-left: 10px;
 }
+.card-title{
+    font: 24px/45px; 
+    font-family: 'Oilrig', cursive;
+}
+ul p{
+    font: 24px/45px; 
+    font-family: 'Oilrig', cursive; 
+}
+
+.cardbody {
+    padding-left: 40px;
+}
