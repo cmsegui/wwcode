@@ -1,3 +1,14 @@
+.navbar {
+    background-color: #2ac5d7;
+}
+
+.navbar-brand {
+    color: #837d7d;
+}
 .card {
     margin-top: 10px;
+}
+
+.card-container {
+    margin-top: 60px;
 }
