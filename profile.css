@@ -14,3 +14,7 @@ ul p{
      margin-left: 40px; 
 color: #000000;
 }  
+
+.card-text {
+    margin-left: 10px;
+}
