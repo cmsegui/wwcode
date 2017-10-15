@@ -1,0 +1,6 @@
+.profile-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.star-rating .fa-star{color: orange;}
