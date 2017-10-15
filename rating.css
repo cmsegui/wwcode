@@ -4,3 +4,31 @@
 }
 
 .star-rating .fa-star{color: orange;}
+
+.peep-rating {
+    margin-top: 20px;
+}
+
+.peep-rating-header {
+    margin-top: 20px;
+}
+
+.star-rating {
+    margin-top: 20px;
+}
+
+.event-rating {
+    margin-top: 20px;
+}
+
+.event-rating-input-box {
+    margin-top: 20px;
+}
+
+.input-group {
+    margin-top: 20px;
+}
+
+.btn-submit {
+    margin-top: 20px;
+}
