@@ -2,20 +2,15 @@ body {
     background-color: #00bcd4;
 }
 .card-title{
-    font: bold, 24px/45px; 
-    font-family: 'Rock Salt', cursive;
+    font: 24px/45px; 
+    font-family: 'Oilrig', cursive;
+}
+ul p{
+    font: 24px/45px; 
+    font-family: 'Oilrig', cursive; 
 }
 
-.icon {
-padding-right: 10px;
-}
-
-.modal-body img {
-    height: 100%;
-    width: 100%;
-    margin-bottom: 15px;
-}
-
-.desc-container {
-    margin-top: 10px;
-}
+.material-icons{
+     margin-left: 40px; 
+color: #000000;
+}  
