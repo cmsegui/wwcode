@@ -1,0 +1,11 @@
+body {
+    background-color: #00bcd4;
+}
+.card-title{
+    font: bold, 24px/45px; 
+    font-family: 'Rock Salt', cursive;
+}
+
+.icon {
+padding-right: 10px;
+}
