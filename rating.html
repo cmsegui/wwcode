@@ -16,11 +16,26 @@
             <div class="row profile-img">
                 <img src="https://imgur.com/1hTdQt0.jpg" alt="Profile Image">
             </div>
-            <div class="container">
-                <div class="row justify-content-center">
+            <div class="container peep-rating">
+                    <div class="row justify-content-center peep-rating-header">
+                        <h5>How's your new peep?</h5>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="star-rating">
+                            <span class="fa fa-star-o" data-rating="1"></span>
+                            <span class="fa fa-star-o" data-rating="2"></span>
+                            <span class="fa fa-star-o" data-rating="3"></span>
+                            <span class="fa fa-star-o" data-rating="4"></span>
+                            <span class="fa fa-star-o" data-rating="5"></span>
+                            <input type="hidden" name="whatever1" class="rating-value" value="0">
+                        </div>
+                    </div>
+            </div>
+            <div class="container event-rating">
+                <div class="row justify-content-center event-rating-header">
                     <h5>How's your peep event?</h5>
                 </div>
-                <div class="row justify-content-center">
+                <div class="row justify-content-center event-rating-stars">
                     <div class="star-rating">
                         <span class="fa fa-star-o" data-rating="1"></span>
                         <span class="fa fa-star-o" data-rating="2"></span>
@@ -30,24 +45,12 @@
                         <input type="hidden" name="whatever1" class="rating-value" value="0">
                     </div>
                 </div>
-                <div class="row">
+                <div class="row event-rating-input-box justify-content-center">
                     <div class="input-group input-group-lg">
-                        <input type="text" class="form-control" placeholder="Write your review for Collin..." aria-describedby="sizing-addon1">
+                        <input type="text" class="form-control" placeholder="Write your review for your Meet..." aria-describedby="sizing-addon1">
                     </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <h5>How's your new peep?</h5>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="star-rating">
-                        <span class="fa fa-star-o" data-rating="1"></span>
-                        <span class="fa fa-star-o" data-rating="2"></span>
-                        <span class="fa fa-star-o" data-rating="3"></span>
-                        <span class="fa fa-star-o" data-rating="4"></span>
-                        <span class="fa fa-star-o" data-rating="5"></span>
-                        <input type="hidden" name="whatever1" class="rating-value" value="0">
+                    <div class="row justify-content-center btn-submit">
+                            <button class="btn btn-warning my-2 my-sm-0" type="submit">Submit</button>
                     </div>
                 </div>
             </div>
